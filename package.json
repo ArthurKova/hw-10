@@ -1,27 +1,24 @@
 {
   "name": "homework",
   "version": "1.0.0",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
   "description": "hw-10",
-  "main": "index.js",
+  "homepage": "https://github.com/ArthurKova/hw-gallery-parcel",
   "scripts": {
-    "start": "parcel *.html",
-    "build": "parcel build"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /hw-10"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArthurKova/hw-10.git"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Arthur Kovalenko <metaloutcome@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ArthurKova/hw-10/issues"
-  },
-  "homepage": "https://github.com/ArthurKova/hw-10#readme",
   "devDependencies": {
     "parcel": "^2.9.1"
   },
   "dependencies": {
     "handlebars": "^4.7.7"
-  }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
