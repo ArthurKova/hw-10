@@ -1,0 +1,27 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "description": "hw-10",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel *.html",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurKova/hw-10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurKova/hw-10/issues"
+  },
+  "homepage": "https://github.com/ArthurKova/hw-10#readme",
+  "devDependencies": {
+    "parcel": "^2.9.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
