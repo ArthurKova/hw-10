@@ -15,10 +15,9 @@
   "author": "Arthur Kovalenko <metaloutcome@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.9.1"
-  },
-  "dependencies": {
-    "handlebars": "^4.7.7"
+    "parcel": "^2.9.1",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-reporter-clean-dist": "^1.0.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
