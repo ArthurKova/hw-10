@@ -2,7 +2,7 @@
   "name": "homework",
   "version": "1.0.0",
   "description": "hw-10",
-  "homepage": "https://github.com/ArthurKova/hw-gallery-parcel",
+  "homepage": "https://github.com/ArthurKova/hw-10",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /hw-10/"
