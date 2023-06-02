@@ -1,0 +1,2 @@
+!function(){let e={LIGHT:"light-theme",DARK:"dark-theme"},t=document.querySelector(".theme-switch__toggle");function c(){document.body.classList.toggle(e.LIGHT),document.body.classList.toggle(e.DARK)}t.addEventListener("input",d=>{c();let o=t.checked;localStorage.setItem("user-data",JSON.stringify({checked:o,theme:o?e.DARK:e.LIGHT}))}),function(){let d=JSON.parse(localStorage.getItem("user-data"));if(!d)return document.body.classList.add(e.LIGHT);d.checked?t.checked=!0:t.checked=!1,c()}()}();
+//# sourceMappingURL=index.9fa10ef0.js.map
